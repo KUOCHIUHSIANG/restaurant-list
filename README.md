@@ -27,10 +27,10 @@ git clone https://github.com/KUOCHIUHSIANG/restaurant-list
 cd restaurant-list  // Enter the project directory
 ```
 ```
-npm install  // Instal npm and nodemon
+npm install  // Instal npm
 ```
 ```
-npm nodemon  // Instal npm and nodemon
+npm nodemon  // Instal nodemon
 ```
 
 3. Start-the-app.js
@@ -45,7 +45,7 @@ npm run dev
 Finally, you will see `Express is listening on localhost:3000` on the Terminal.
 
 
-Now, you can connect "http://localhost:3000" on your browser to see the Restaurant-List Website!
+Now, you can connect `"http://localhost:3000"` on your browser to see the Restaurant-List Website!
 
 
 Notice,  Don't forget use `Control + C` to disconnect....;)
