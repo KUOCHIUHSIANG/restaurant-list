@@ -25,7 +25,7 @@ app.get('/search', (req, res) => {
   })
   if (restaurants.length === 0)
   {
-    res.render('searchnoresult')
+    res.render('searchnoresult', { keyword: keyword })
   }
 
   res.render('index', { restaurantList: restaurants, keyword: keyword })
